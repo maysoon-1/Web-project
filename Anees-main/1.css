@@ -1,0 +1,214 @@
+@import url("http://www.fontstatic.com/f=cocon-next-arabic");
+body {font-family: 'cocon-next-arabic';
+background-image: url("100.png");
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* CSS for header */
+.header {
+font-family: 'cocon-next-arabic';
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:LightGray;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:LightGray;
+  margin-right: 20px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #000;
+  padding: 35px 20px;
+ font-size:20px;
+}
+.nav-items a:hover{
+background:Gainsboro;}
+
+
+/* CSS for main element */
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 520px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("10.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro h1 {
+  font-family: 'cocon-next-arabic';
+  font-size:100px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.intro p {
+  font-size: 20px;
+  color: #d1d1d1;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+
+
+.achievements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.achievements .work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.achievements .work .work-heading {
+font-family: 'cocon-next-arabic';
+  font-size: 30px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.achievements .work .work-text {
+font-family: 'cocon-next-arabic';
+  font-size: 20px;
+  color: #585858;
+  margin: 10px 0;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+  border-top: 2px solid #eeeeee;
+}
+
+.about-me img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-me-text h2 {
+  font-size:70px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.about-me-text p {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+/* CSS for footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d58abb;
+  padding: 40px 80px;
+}
+
+.footer .copy {
+  color: #fff;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.bottom-links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.bottom-links .links span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.bottom-links .links a {
+  text-decoration: none;
+  color: #FFF;
+  padding: 10px 20px;
+}
+
+h1 {
+font-family: 'cocon-next-arabic';
+  color: #fbaa40;
+  font-size: 50px;
+  text-align:center;
+
+}
+table {
+  background: #d58abb;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+
+}
+th {
+  border-bottom: 1px solid #f0d0e4;
+  color: #ffc952;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+
+}
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+ text-align:center;
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+  background: #f0d0e4;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid-container {
+  columns: 5 200px;
+  column-gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+    p {
+      margin: 5px 0;
+      padding: 0;
+      text-align: center;
+      font-style: italic;
+    }
